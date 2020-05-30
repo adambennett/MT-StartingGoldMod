@@ -4,7 +4,7 @@ using HarmonyLib;
 
 namespace StartingGoldMod
 {
-    [BepInPlugin("nyoxide.monstertrain.testmod", "Test Mod", "1.0.0.1")]
+    [BepInPlugin("nyoxide.monstertrain.starting-gold-mod", "Starting Gold Mod", "1.0.0.2")]
     [BepInProcess("MonsterTrain.exe")]
     [BepInProcess("MtLinkHandler.exe")]
     public class GoldMod : BaseUnityPlugin
