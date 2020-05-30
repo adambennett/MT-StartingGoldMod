@@ -59,7 +59,9 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="DisableMP.cs" />
         <Compile Include="GoldMod.cs" />
+        <Compile Include="GoldPatch.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
