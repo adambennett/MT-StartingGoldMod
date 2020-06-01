@@ -1,4 +1,5 @@
-﻿using HarmonyLib;
+﻿using BepInEx.Logging;
+using HarmonyLib;
 
 namespace StartingGoldMod
 {
@@ -8,6 +9,7 @@ namespace StartingGoldMod
         static void Postfix(ref int __result)
         {
             __result = GoldMod._goldAmt.Value;
+            GoldMod.log(LogLevel.Debug, "New starting gold amount: " + __result);
         }
     }
 }

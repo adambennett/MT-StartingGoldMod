@@ -1,16 +1,24 @@
 ﻿using BepInEx;
 using BepInEx.Configuration;
+using BepInEx.Logging;
 using HarmonyLib;
 
 namespace StartingGoldMod
 {
-    [BepInPlugin("nyoxide.monstertrain.starting-gold-mod", "Moneybags", "1.0.0.3")]
+    [BepInPlugin("nyoxide.monstertrain.starting-gold-mod", "Moneybags", "1.1.0.0")]
     [BepInProcess("MonsterTrain.exe")]
     [BepInProcess("MtLinkHandler.exe")]
+    [BepInDependency("api.modding.train.monster")]
     public class GoldMod : BaseUnityPlugin
     {
         public static ConfigEntry<int> _goldAmt;
         private static ConfigEntry<bool> _useCustomAmt;
+        private static ManualLogSource logger = BepInEx.Logging.Logger.CreateLogSource("Nyoxide's Logger");
+        
+        public static void log(LogLevel lvl, string msg)
+        {
+            logger.Log(lvl, msg);
+        }
         
         void Patch()
         {
