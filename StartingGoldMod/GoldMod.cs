@@ -13,7 +13,7 @@ namespace StartingGoldMod
     {
         public static ConfigEntry<int> _goldAmt;
         private static ConfigEntry<bool> _useCustomAmt;
-        private static ManualLogSource logger = BepInEx.Logging.Logger.CreateLogSource("Nyoxide's Logger");
+        private static ManualLogSource logger = BepInEx.Logging.Logger.CreateLogSource("Moneybags");
         
         public static void log(LogLevel lvl, string msg)
         {
