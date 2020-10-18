@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartingGoldMod", "StartingGoldMod\StartingGoldMod.csproj", "{1999D8F1-B355-4C93-B5CB-5D6CED18276B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moneybags", "Moneybags\Moneybags.csproj", "{1999D8F1-B355-4C93-B5CB-5D6CED18276B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

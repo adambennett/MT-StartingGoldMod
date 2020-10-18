@@ -7,8 +7,8 @@
         <ProjectGuid>{1999D8F1-B355-4C93-B5CB-5D6CED18276B}</ProjectGuid>
         <OutputType>Library</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>StartingGoldMod</RootNamespace>
-        <AssemblyName>StartingGoldMod</AssemblyName>
+        <RootNamespace>Moneybags</RootNamespace>
+        <AssemblyName>Moneybags</AssemblyName>
         <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
     </PropertyGroup>
@@ -32,7 +32,7 @@
         <WarningLevel>4</WarningLevel>
     </PropertyGroup>
     <ItemGroup>
-        <Compile Include="GoldMod.cs" />
+        <Compile Include="MoneybagsMod.cs" />
         <Compile Include="GoldPatch.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
@@ -50,7 +50,7 @@
         <HintPath>..\Libs\BepInEx.Harmony.dll</HintPath>
       </Reference>
       <Reference Include="MonsterTrainModdingAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-        <HintPath>..\Libs\MonsterTrainModdingAPI.dll</HintPath>
+        <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\workshop\content\1102190\2205086946\plugins\MonsterTrainModdingAPI.dll</HintPath>
       </Reference>
       <Reference Include="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
         <HintPath>..\Libs\Unity.Addressables.dll</HintPath>
